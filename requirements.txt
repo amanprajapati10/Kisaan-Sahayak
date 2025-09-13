@@ -1,0 +1,35 @@
+# FastAPI and dependencies
+fastapi
+uvicorn[standard]
+
+# Data processing and Machine Learning
+numpy
+pandas
+scikit-learn
+joblib
+
+# MongoDB integration
+pymongo
+
+# API requests
+requests
+httpx
+
+# For environment variables
+python-dotenv
+
+# For CORS (to connect Flutter frontend)
+fastapi[all]
+
+# LLM Integration (OpenAI or others)
+openai
+
+# Optional - If using Hugging Face
+transformers
+
+# JSON Web Tokens (JWT) for authentication if needed
+python-jose[cryptography]
+passlib[bcrypt]
+
+# For background tasks like fetching weather updates
+apscheduler
